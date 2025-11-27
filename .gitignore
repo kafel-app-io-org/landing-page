@@ -1,0 +1,20 @@
+# Ignore folders
+node_modules/
+dist/
+build/
+.env/
+.idea/
+.vscode/
+zip/
+
+# Ignore specific files
+.env.local
+config.dev.json
+secret-key.txt
+
+# Ignore all log files
+*.log
+
+# Ignore everything in a folder except one file
+uploads/*
+!uploads/README.md

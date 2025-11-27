@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <g fill="none" stroke="#28C76F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- hand -->
+    <path d="M84 324c22-12 60-12 88 0l76 32c18 8 38 8 56 0l32-14c16-7 35 1 42 17 7 16-1 35-17 42l-44 18c-28 12-60 12-88 0l-120-52c-16-7-23-26-16-42 3-6 8-11 14-14z"/>
+    <!-- heart -->
+    <path d="M256 200c-12-20-46-24-62-6-12 12-10 36 2 48 22 22 60 42 60 42s38-20 60-42c12-12 14-36 2-48-16-18-50-14-62 6z"/>
+    <!-- blockchain nodes around heart -->
+    <circle cx="176" cy="168" r="10" fill="#28C76F"/>
+    <circle cx="336" cy="168" r="10" fill="#28C76F"/>
+    <circle cx="256" cy="148" r="10" fill="#28C76F"/>
+    <path d="M176 168L256 148 336 168 256 200 176 168" />
+  </g>
+</svg>

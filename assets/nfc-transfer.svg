@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <g fill="none" stroke="#28C76F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left phone -->
+    <rect x="72" y="88" rx="28" ry="28" width="136" height="256"/>
+    <circle cx="140" cy="116" r="6" fill="#28C76F"/>
+    <!-- Right phone -->
+    <rect x="304" y="168" rx="28" ry="28" width="136" height="256"/>
+    <circle cx="372" cy="196" r="6" fill="#28C76F"/>
+    <!-- NFC waves -->
+    <path d="M238 216c24-24 48-24 72 0" />
+    <path d="M230 248c36-36 76-36 112 0" />
+    <path d="M222 280c48-48 120-48 168 0" />
+    <!-- Small arc above like signal -->
+    <path d="M256 168c40-40 96-40 136 0" />
+  </g>
+</svg>
