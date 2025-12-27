@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <g fill="none" stroke="#28C76F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- coin -->
+    <circle cx="220" cy="220" r="100"/>
+    <circle cx="220" cy="220" r="68"/>
+    <!-- check mark -->
+    <path d="M176 220l28 30 60-64"/>
+    <!-- magnifier -->
+    <circle cx="332" cy="332" r="68"/>
+    <line x1="384" y1="384" x2="436" y2="436"/>
+    <!-- chain links decor -->
+    <path d="M356 160c14-14 38-14 52 0s14 38 0 52"/>
+    <path d="M92 256c-14 14-14 38 0 52s38 14 52 0"/>
+  </g>
+</svg>

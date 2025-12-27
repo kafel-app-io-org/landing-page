@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <g fill="none" stroke="#28C76F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Bag -->
+    <path d="M136 212h240l24 176H112l24-176z"/>
+    <path d="M184 212v-20c0-40 32-72 72-72s72 32 72 72v20"/>
+    <circle cx="200" cy="228" r="6" fill="#28C76F"/>
+    <circle cx="312" cy="228" r="6" fill="#28C76F"/>
+    <!-- Hexagon coin -->
+    <polygon points="256,320 292,300 292,260 256,240 220,260 220,300" />
+    <!-- tiny node markers on vertices -->
+    <circle cx="256" cy="240" r="6" fill="#28C76F"/>
+    <circle cx="292" cy="260" r="6" fill="#28C76F"/>
+    <circle cx="292" cy="300" r="6" fill="#28C76F"/>
+    <circle cx="256" cy="320" r="6" fill="#28C76F"/>
+    <circle cx="220" cy="300" r="6" fill="#28C76F"/>
+    <circle cx="220" cy="260" r="6" fill="#28C76F"/>
+  </g>
+</svg>
