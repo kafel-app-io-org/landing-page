@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kafel - Your Digital Wallet for Transfers & Giving</title>
+  <meta name="description" content="Experience the next generation of digital finance with our blockchain powered wallet. Send, receive, deposit, withdraw, and donate securely onchain and offchain. Leveraging smart contracts for transparency and automation, and NFC offline payment technology for instant transfers without internet connectivity, we ensure your financial life is secure, efficient, and always accessible.">
+  
+  <!-- Preload critical fonts -->
+  <link rel="preload" href="assets/fonts/Roboto-VariableFont_wdth,wght.ttf" as="font" type="font/Roboto" crossorigin>
+  <link rel="preload" href="assets/fonts/Roboto-VariableFont_wdth,wght.ttf" as="font" type="font/Roboto" crossorigin>
+  <link rel="preload" href="assets/fonts/Roboto-VariableFont_wdth,wght.ttf" as="font" type="font/Roboto" crossorigin>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.ico">
+
+  <!-- Mobile-specific enhancements -->
+</head>
+<body>
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="skip-link" data-i18n="skip-to-content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <!-- Logo -->
+        <div class="header__logo">
+          <img src="assets/kafel_logo.png" alt="Kafel" width="120" height="32">
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link nav__link--active" data-i18n="nav-home">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link" data-i18n="nav-about">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#features" class="nav__link" data-i18n="nav-features">Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="#how-it-works" class="nav__link" data-i18n="nav-how-it-works">How work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#download" class="nav__link" data-i18n="nav-download">Download</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link" data-i18n="nav-contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Controls -->
+        <div class="header__controls">
+          <!-- Language Selector (optional) -->
+          <!--
+          <div class="language-selector">
+            <select id="language-select" class="language-selector__select" aria-label="Select language">
+              <option value="en">EN</option>
+              <option value="ar">AR</option>
+            </select>
+          </div>
+          -->
+
+          <!-- Theme Toggle (optional) -->
+          <!--
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <span class="theme-toggle__track">
+              <span class="theme-toggle__thumb"></span>
+            </span>
+          </button>
+          -->
+
+          <!-- Mobile Menu Button -->
+          <button
+            class="mobile-menu-toggle"
+            id="mobile-menu-toggle"
+            aria-label="Toggle mobile menu"
+            aria-expanded="false"
+          >
+            <div class="mobile-menu-toggle__line"></div>
+            <div class="mobile-menu-toggle__line"></div>
+            <div class="mobile-menu-toggle__line"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__text">
+            <p class="hero__subtitle" data-i18n="hero-subtitle">Decentralized Donation Wallet</p>
+            <h1 class="hero__title" data-i18n="hero-title">Your Web3 Wallet for Seamless Transfers &amp; Giving</h1>
+            <p class="hero__description" data-i18n="hero-description">
+              Experience the next generation of digital finance with our blockchain powered wallet. Send, receive,
+              deposit, withdraw, and donate securely onchain and offchain. Leveraging smart contracts for transparency
+              and automation, and NFC offline payment technology for instant transfers without internet connectivity,
+              we ensure your financial life is secure, efficient, and always accessible.
+            </p>
+
+            <div class="hero__cta">
+              <a href="https://play.google.com/store/apps/details?id=com.kafel.app">
+                <img src="assets/store-google-play-logo1.png" alt="Get it on Google Play" height="64">
+              </a>
+			  <a href="kafel.apk">
+                <img src="assets/download-android-apk-badge.png" alt="Download the Android APK" height="64">
+              </a>	
+              <a href="#">
+                <img src="assets/store-apple-logo1.png" alt="Download on the App Store" height="64">
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__visual">
+			<img src="assets/hero-phone.png" alt="Kafel app interface showing wallet balance and transaction history" width="350" height="500" class="hero__phone">
+
+            <!--<iframe
+              src="https://www.youtube.com/embed/LVLxO0tGuRg?si=vW_wAdN1ljUlaWcd"
+              title="Kafel App Overview"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="about">
+      <div class="container">
+        <div class="services__header">
+          <p class="services__subtitle" data-i18n="services-subtitle">We Deliver Best Solution</p>
+
+          <div class="">
+            <p
+              class="service-card__description"
+              data-i18n="service-receive-description"
+              style="text-align: justify; font-size:20px"
+            >
+              <b><i>Kafel</i></b> is a blockchain-based platform built to solve urgent cash and donation distribution
+              problems. It enables donors to support verified campaigns via a mobile App. In addition, users benefit
+              from an offline wallet feature: tokens are issued to users when online, digitally signed, stored locally,
+              and can be exchanged offline. This reduces dependence on physical cash which is often damaged,
+              counterfeit, or refused by merchants and compensates for a crippled banking infrastructure.
+              <br><br>
+              Beneficiaries may claim or spend aid via multiple channels: stablecoins like USDT, QR-code vouchers,
+              NFC-enabled cards, etc., ensuring inclusivity even without smartphones or steady internet.
+              <br><br>
+              <b><i>Kafel</i></b> fuses blockchain’s immutability, diversified redemption channels, and offline
+              transaction logic to bring secure, transparent, and resilient aid distribution to vulnerable
+              communities.
+            </p>
+          </div>
+        </div>
+
+        <div class="services__grid">
+          <div class="service-card">
+            <div class="service-card__icon">
+              <img src="assets/nfc-transfer-icon.png" alt="NFC transfer icon" width="64" height="64">
+            </div>
+            <h3 class="service-card__title" data-i18n="service-send-title">Transfer Funds Instantly with NFC</h3>
+            <p class="service-card__description" data-i18n="service-send-description">
+              Send money to friends, family, or merchants securely via NFC-powered offline payments. Transactions are
+              recorded on-chain once reconnected, ensuring both speed and transparency no internet required.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">
+              <img src="assets/purchase-goods-icon.png" alt="Purchase goods icon" width="64" height="64">
+            </div>
+            <h3 class="service-card__title" data-i18n="service-receive-title">Purchase Goods &amp; Services</h3>
+            <p class="service-card__description" data-i18n="service-receive-description">
+              Use your wallet balance to pay merchants directly through smart contract–secured transfers. Whether
+              online or offline, every purchase is fast, verifiable, and tamper-proof.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">
+              <img src="assets/donations-in-your-hands-icon.png" alt="Donations in your hands icon" width="64" height="64">
+            </div>
+            <h3 class="service-card__title" data-i18n="service-deposit-title">Your Donations in Your Hands</h3>
+            <p class="service-card__description" data-i18n="service-deposit-description">
+              Stay in full control of your giving. As a donor, you can decide when, where, and how your contributions
+              are allocated. Blockchain-backed smart contracts provide proof that your funds are reaching the intended
+              cause.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">
+              <img src="assets/track-donations-icon.png" alt="Track donations icon" width="64" height="64">
+            </div>
+            <h3 class="service-card__title" data-i18n="service-withdraw-title">Track &amp; Verify Your Donations</h3>
+            <p class="service-card__description" data-i18n="service-withdraw-description">
+              Gain full visibility into your impact. Follow your donations in real time with transparent, auditable
+              records, ensuring accountability and building trust between you and beneficiaries.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="features__content">
+          <div class="features__text">
+            <p class="features__subtitle" data-i18n="features-subtitle">We Deliver Best Solution</p>
+            <h2 class="features__title" data-i18n="features-title">
+              Powerful Features That Make Managing Your Money and Donations Simple &amp; Secure
+            </h2>
+
+            <div class="features__list">
+              <div class="feature-item">
+                <div class="feature-item__icon">
+                  <img src="assets/secure-icon.svg" alt="Secure icon" width="24" height="24">
+                </div>
+                <div class="feature-item__content">
+                  <h3 class="feature-item__title" data-i18n="feature-secure-title">Secure Transaction</h3>
+                  <p class="feature-item__description" data-i18n="feature-secure-description">
+                    Advanced encryption for all your transactions
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-item__icon">
+                  <img src="assets/instant-icon.svg" alt="Instant icon" width="24" height="24">
+                </div>
+                <div class="feature-item__content">
+                  <h3 class="feature-item__title" data-i18n="feature-instant-title">Instant Transfers</h3>
+                  <p class="feature-item__description" data-i18n="feature-instant-description">
+                    Send money instantly anywhere in the world
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-item__icon">
+                  <img src="assets/donations-icon.svg" alt="Donations icon" width="24" height="24">
+                </div>
+                <div class="feature-item__content">
+                  <h3 class="feature-item__title" data-i18n="feature-donations-title">Easy Donations</h3>
+                  <p class="feature-item__description" data-i18n="feature-donations-description">
+                    Contribute to charities with just a few taps
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-item__icon">
+                  <img src="assets/interface-icon.svg" alt="Interface icon" width="24" height="24">
+                </div>
+                <div class="feature-item__content">
+                  <h3 class="feature-item__title" data-i18n="feature-interface-title">User-Friendly Interface</h3>
+                  <p class="feature-item__description" data-i18n="feature-interface-description">
+                    Simple and intuitive design for everyone
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="features__visual">
+            <img
+              src="assets/features-phone.png"
+              alt="Kafel app showing QR code scanner and transaction interface"
+              width="320"
+              height="640"
+              class="features__phone"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Getting Started Section -->
+    <section class="getting-started" id="how-it-works">
+      <div class="container">
+        <div class="getting-started__header">
+          <p class="getting-started__subtitle" data-i18n="getting-started-subtitle">Getting Started</p>
+          <h2 class="getting-started__title" data-i18n="getting-started-title">
+            Getting Started Is Simple: Just a Few Steps to Unlock Your Wallet
+          </h2>
+        </div>
+
+        <div class="getting-started__steps">
+          <div class="step upper-step">
+            <div class="step__number">01</div>
+            <div class="step__content">
+              <h3 class="step__title" data-i18n="step-1-title">Download the App</h3>
+              <p class="step__description" data-i18n="step-1-description">
+                Get the Kafel app from App Store or Google Play and install it on your device.
+              </p>
+            </div>
+          </div>
+
+          <div class="step lower-step">
+            <div class="step__number">02</div>
+            <div class="step__content">
+              <h3 class="step__title" data-i18n="step-2-title">Create Account</h3>
+              <p class="step__description" data-i18n="step-2-description">
+                Sign up with your email and verify your identity securely.
+              </p>
+            </div>
+          </div>
+
+          <div class="step upper-step">
+            <div class="step__number">03</div>
+            <div class="step__content">
+              <h3 class="step__title" data-i18n="step-3-title">Add Funds</h3>
+              <p class="step__description" data-i18n="step-3-description">
+                Deposit money to your wallet through available payment methods.
+              </p>
+            </div>
+          </div>
+
+          <div class="step lower-step">
+            <div class="step__number">04</div>
+            <div class="step__content">
+              <h3 class="step__title" data-i18n="step-4-title">Make Action</h3>
+              <p class="step__description" data-i18n="step-4-description">
+                Start sending, receiving, and managing your money effortlessly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="download">
+      <div class="container">
+        <div class="cta__content">
+          <div class="cta__visual">
+            <img
+              src="assets/cta-phone.svg"
+              alt="Kafel app donation interface"
+              width="280"
+              height="560"
+              class="cta__phone"
+            >
+          </div>
+
+          <div class="cta__text">
+            <h2 class="cta__title" data-i18n="cta-title">Let's make something great together.</h2>
+            <p class="cta__description" data-i18n="cta-description">
+              Join thousands of users who trust Kafel for their digital wallet needs.
+            </p>
+
+            <div class="cta__buttons">
+              <a href="https://play.google.com/store/apps/details?id=com.kafel.app">
+                <img
+                  src="assets/store-google-play-logo-white.png"
+                  alt="Get it on Google Play"
+                  width="140"
+                >
+              </a>
+			  <a href="kafel.apk">
+                <img
+                  src="assets/download-android-apk-badge-white.png"
+                  alt="Get it on Google Play"
+                  width="140"
+                >
+              </a>
+              <a href="#">
+                <img
+                  src="assets/store-apple-logo-white.png"
+                  alt="Download on the App Store"
+                  width="140"
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <img src="assets/kafel_logo.png" alt="Kafel" width="120" class="footer__logo">
+        </div>
+
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <div class="footer__nav-group">
+            <h3 class="footer__nav-title" data-i18n="footer-nav-title">Navigation</h3>
+            <ul class="footer__nav-list">
+              <li><a href="#home" class="footer__nav-link" data-i18n="nav-home">Home</a></li>
+              <li><a href="#about" class="footer__nav-link" data-i18n="nav-about">About</a></li>
+              <li><a href="#features" class="footer__nav-link" data-i18n="nav-features">Features</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__nav-group">
+            <h3 class="footer__nav-title" data-i18n="footer-services-title">Services</h3>
+            <ul class="footer__nav-list">
+              <li><a href="#" class="footer__nav-link" data-i18n="service-send-title">Send</a></li>
+              <li><a href="#" class="footer__nav-link" data-i18n="service-receive-title">Receive</a></li>
+              <li><a href="#" class="footer__nav-link" data-i18n="service-deposit-title">Deposit</a></li>
+              <li><a href="#" class="footer__nav-link" data-i18n="service-withdraw-title">Withdraw</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="footer__contact">
+          <h3 class="footer__contact-title" data-i18n="footer-contact-title">Contact</h3>
+          <p class="footer__contact-info">
+            <a class="footer__contact-info" href="mailto:admin@kafel.io">
+              <span data-i18n="footer-email">admin@kafel.io</span>
+            </a>
+          </p>
+          <p class="footer__contact-info">
+            <a class="footer__contact-info" href="mailto:marketing@kafel.io">
+              <span data-i18n="footer-email">marketing@kafel.io</span>
+            </a>
+          </p>
+        </div>
+
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="Follow us on Twitter">
+            <img src="assets/twitter-icon.svg" alt="Twitter" width="64" height="64">
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Follow us on Instagram">
+            <img src="assets/instagram-icon.svg" alt="Instagram" width="64" height="64">
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Follow us on Facebook">
+            <img src="assets/facebook-icon.svg" alt="Facebook" width="64" height="64">
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Follow us on LinkedIn">
+            <img src="assets/linkedin-icon.svg" alt="LinkedIn" width="64" height="64">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
